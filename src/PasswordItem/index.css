@@ -1,0 +1,41 @@
+.list-container {
+  list-style-type: none;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+
+  border-radius: 10px;
+  width: 200px;
+  height: 130px;
+  margin: 5px;
+  padding: 4px;
+
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.profile-initial {
+  color: white;
+  background-color: #10b981;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  padding: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.delete-img {
+  height: 25px;
+  cursor: pointer;
+}
+.stars-img {
+  width: 100px;
+  height: 10px;
+}
